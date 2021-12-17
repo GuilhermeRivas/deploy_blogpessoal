@@ -60,6 +60,8 @@ public class Usuario {
 		this.usuario = usuario;
 		this.senha = senha;
 		}
+		
+		public Usuario() { }
 	/**
 	 * CascadeType.REMOVE -> Ele propaga a operação de remoção de um objeto Pai para um 
 	 * objeto Filho. 
